@@ -15,7 +15,7 @@ export default function ProductList() {
     { field: "id", headerName: "ID", width: 90 },
     {
       field: "product",
-      headerName: "Product",
+      headerName: "Name",
       width: 200,
       renderCell: (params) => {
         return (
@@ -26,7 +26,7 @@ export default function ProductList() {
         );
       },
     },
-    { field: "stock", headerName: "Stock", width: 200 },
+    { field: "stock", headerName: "VISA Number", width: 200 },
     {
       field: "status",
       headerName: "Status",
@@ -34,7 +34,7 @@ export default function ProductList() {
     },
     {
       field: "price",
-      headerName: "Price",
+      headerName: "Cost",
       width: 160,
     },
     {

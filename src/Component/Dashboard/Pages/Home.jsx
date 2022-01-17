@@ -10,7 +10,7 @@ export default function Home() {
       <FeaturedInfo />
       <Chart
         data={userData}
-        title="User Analytics"
+        title="Visa Analytics"
         grid
         dataKey="Active User"
       />

@@ -70,7 +70,7 @@
 .sidebar {
   flex: 1;
   height: calc(100vh - 50px);
-  background-color: rgb(251, 251, 255);
+  background-color: rgb(212, 212, 214);
   position: sticky;
   top: 50px;
 }
@@ -85,8 +85,8 @@
 }
 
 .sidebarTitle {
-  font-size: 13px;
-  color: rgb(187, 186, 186);
+  font-size: 15px;
+  color: rgb(83, 81, 81);
 }
 
 .sidebarList {
@@ -95,7 +95,7 @@
 }
 
 .sidebarListItem {
-  padding: 5px;
+  padding: 20px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -104,7 +104,7 @@
 
 .sidebarListItem.active,
 .sidebarListItem:hover {
-  background-color: rgb(240, 240, 255);
+  background-color: rgb(223, 223, 226);
 }
 
 .sidebarIcon {
@@ -117,7 +117,7 @@
 .topbar {
   width: 100%;
   height: 50px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   position: sticky;
   top: 0;
   z-index: 999;
@@ -134,7 +134,7 @@
 .logo {
   font-weight: bold;
   font-size: 30px;
-  color: darkblue;
+  color: rgb(15, 153, 89);
   cursor: pointer;
 }
 
